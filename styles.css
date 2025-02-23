@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 1em 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.headshot {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#about-me, #projects, #contact {
+    padding: 2em;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    flex: 1 1 calc(33.333% - 1em);
+    margin: 1em;
+    border: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
