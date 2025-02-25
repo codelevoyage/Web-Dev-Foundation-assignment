@@ -1,4 +1,4 @@
-# Portfolio Website - Final Assignment
+# Portfolio Website - Final IF Assignment
 
 ## Overview
 This is my final project for the IF Foundation course—a basic portfolio website using HTML and CSS. It helped me strengthen my front-end development skills.
